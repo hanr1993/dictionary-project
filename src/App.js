@@ -1,12 +1,18 @@
 import logo from "./logo.png";
+import React from "react";
+import Dictionary from "./dictionary";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo img-fluid" alt="logo" />
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <img src={logo} className="App-logo img-fluid" alt="logo" />
+        </header>
+        <Dictionary />
+        <footer className="App-footer">Coded by Hannah Rusk</footer>
+      </div>
     </div>
   );
 }
