@@ -1,5 +1,9 @@
+body {
+  background: #ddf3f5;
+}
+
 .App-logo {
-  max-width: 300px;
+  max-width: 200px;
   display: block;
   margin: 0 auto;
 }

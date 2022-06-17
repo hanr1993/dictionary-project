@@ -10,7 +10,7 @@ function App() {
         <header className="App-header">
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
-        <Dictionary />
+        <Dictionary defaultKeyword="sunset" />
         <footer className="App-footer">Coded by Hannah Rusk</footer>
       </div>
     </div>
